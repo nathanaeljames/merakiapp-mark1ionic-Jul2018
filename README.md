@@ -13,7 +13,7 @@ PROBLEMS:
 5. Push notification broadcast system not started yet.
 6. In-app social networking presents challenges with minors and young students, GDPR, etc.
 
-NEW APP DIRECTIONS
+NEW APP DIRECTIONS:
 1. The removal of the on-site English lesson component in Oñati stands to change the entire flipped classroom approach of the app. Will it be replaced with a digital classroom and telepresent teachers? Or less-involved course graders/ moderators? Or are we now marketing an entirely different product?
 2. Not an English school, but a SCORM-player foir various downloadable subscribed course modules.
 3. In-classroom aspect will need to be replaced with either digital classroom or much stronger in-app speaking and voice technologies.
