@@ -1,0 +1,18 @@
+<ion-view title="Settings" id="page5">
+  <ion-content padding="true" class="has-header">
+    <div class="profile-image">
+      <img src="{{userData.bigAvatar}}" style="display: block; width: 40%; height: auto; margin-left: auto; margin-right: auto;">
+    </div>
+    <h3 id="settings-heading1" style="color:#000000;font-weight:300;text-align:center;">{{userData.name}}</h3>
+    <div class="spacer" style="width: 300px; height: 19px;"></div>
+    <ion-list id="settings-list4" class="manual-list-fullwidth">
+      <ion-item class="item-icon-right semitransparency" id="settings-list-item9" ui-sref="menu.notification()">Notification Management
+        <i class="icon ion-ios-arrow-forward"></i>
+      </ion-item>
+      <ion-item class="item-icon-right semitransparency" id="settings-list-item8" ui-sref="menu.appFeedback()">App Feedback
+        <i class="icon ion-ios-arrow-forward"></i>
+      </ion-item>
+    </ion-list>
+    <button id="settings-button2" ng-click="logout()" class="button button-dark button-block semitransparency">Log Out</button>
+  </ion-content>
+</ion-view>

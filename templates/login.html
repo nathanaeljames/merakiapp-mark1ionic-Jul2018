@@ -1,0 +1,25 @@
+<ion-view title="Login" hide-nav-bar="true" cache-view="false" nav-transition="none" id="page6">
+  <ion-content padding="true" style="background: url(img/RlFPeXoDQDS7vrgkzlDg_splashscreen.png) no-repeat center;background-size:cover;" class="manual-ios-statusbar-padding" scroll="false">
+    <div id="login-markdown1" ng-if="error" class="show-list-numbers-and-dots error-box">
+      <p style="margin-top:0px;color:#000000;">{{error}}</p>
+    </div>
+    <form id="login-form1" class="list center-form">
+      <div>
+        <img src="img/qNnMnHQwQ6KJ9DhAzdGP_logo2.png" style="display: block; width: 50%; height: auto; margin-left: auto; margin-right: auto;">
+      </div>
+      <div class="spacer" style="width: 300px; height: 25px;"></div>
+      <ion-list id="login-list1">
+        <label class="item item-input top-input" id="login-input1">
+          <span class="input-label">Username</span>
+          <input type="text" placeholder="" ng-model="data.username">
+        </label>
+        <label class="item item-input bottom-input" id="login-input2">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="" ng-model="data.password">
+        </label>
+      </ion-list>
+      <div class="spacer" style="width: 300px; height: 12px;"></div>
+      <button id="login-button3" ng-click="login()" class="button button-dark button-block login-button">Login</button>
+    </form>
+  </ion-content>
+</ion-view>
