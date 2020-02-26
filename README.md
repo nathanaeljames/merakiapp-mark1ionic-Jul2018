@@ -7,11 +7,12 @@ The hybrid-web app is designed to manage user sessions and retrieve and play our
 
 PROBLEMS:
 1. Web-based Ionic Framework tool actually made the project more difficult than simply downloading Ionic and developing from the ground up.
-2. iframe-based JomSocial tab is slowwww and needs either preloading or better API functionality.
-3. Cookie-based sessions expire after set hours--must replace with tolken-based authentication.
-4. Lesson view approach relied on in-app browser and extensive html stripping which caused CORS issues circumvented with elaborate JavaScript.
-5. Push notification broadcast system not started yet.
-6. In-app social networking presents challenges with minors and young students, GDPR, etc.
+2. Numerous updates to Ionic and Angular during this time period--current code now old and obsolete.
+3. iframe-based JomSocial tab is slowwww and needs either preloading or better API functionality.
+4. Cookie-based sessions expire after set hours--must replace with tolken-based authentication.
+5. Lesson view approach relied on in-app browser and extensive html stripping which caused CORS issues circumvented with elaborate JavaScript.
+6. Push notification broadcast system not started yet.
+7. In-app social networking presents challenges with minors and young students, GDPR, etc.
 
 NEW APP DIRECTIONS:
 1. The removal of the on-site English lesson component in Oñati stands to change the entire flipped classroom approach of the app. Will it be replaced with a digital classroom and telepresent teachers? Or less-involved course graders/ moderators? Or are we now marketing an entirely different product?
