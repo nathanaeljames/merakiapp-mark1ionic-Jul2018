@@ -16,11 +16,12 @@ PROBLEMS:
 
 NEW APP DIRECTIONS:
 1. The removal of the on-site English lesson component in Oñati stands to change the entire flipped classroom approach of the app. Will it be replaced with a digital classroom and telepresent teachers? Or less-involved course graders/ moderators? Or are we now marketing an entirely different product?
-2. Not an English school, but a SCORM-player foir various downloadable subscribed course modules.
+2. Not an English school, but a SCORM-player for various downloadable subscribed course modules from the learning site.
 3. In-classroom aspect will need to be replaced with either digital classroom or much stronger in-app speaking and voice technologies.
 
 SOLUTIONS:
 1. Scrap entire project and start from scratch as a SPA in React--faster, less bugs, more responsive, more control.
 2. Use new Guru SCORM functionality to play lessons in Cordova without HTML stripping or CORS trouble.
-3. Develop learning AI to deliver curriculum to students based on their weaknesses and skip based on strengths.
+3. Develop learning A.I. to deliver curriculum to students based on their weaknesses and skip based on strengths.
 4. Only reminder push notifications and no broadcasts.
+5. Serious rethinking of social networking extent or presence within app.
